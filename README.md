@@ -44,15 +44,14 @@ smart-attendance-system/
    ```bash
    git clone https://github.com/your-username/smart-attendance-system.git
    cd smart-attendance-system
-Install Dependencies
-
+**Install Dependencies**
+```bash
 pip install -r requirements.txt
-Collect Facial Data
+**Collect Facial Data**
 
 Add clear front-facing images to the dataset/ folder. Use file names as student names.
 
 Run the System
-
 
 python3 main.py
 🔊 Audio Feedback Options
@@ -63,7 +62,9 @@ Online: gTTS for Google TTS (requires internet)
 📈 Sample Output
 
 [INFO] Recognizing...
+
 [RECOGNIZED] John Mrigank Jaiswal as present
+
 [VOICE] "Mrigank Jaiswal, your attendance has been marked"
 
 📌 Use Cases
